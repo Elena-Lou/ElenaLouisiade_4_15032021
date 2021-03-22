@@ -741,6 +741,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
+    width: 75%;
 }
 
 .portfolio-row {
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(41, 35, 20, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -823,6 +825,16 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+blockquote {
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+blockquote p {
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 @media (max-width: 1024px) {
