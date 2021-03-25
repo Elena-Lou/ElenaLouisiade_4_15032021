@@ -296,9 +296,9 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    max-width: 215px;
 }
 
 .navbar-brand img {
@@ -679,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -740,6 +740,8 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #8b5237;
 }
 
 .portfolio-thumb {
@@ -783,6 +785,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-shadow: 3px 3px 3px rgba(41, 35, 20, 0.7);
+    font-weight: 700;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
@@ -822,20 +827,26 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-min.webp");
+    width: 100%;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    width: 100%;
 }
 
 blockquote {
     margin: 0 auto;
     padding: 0;
     width: 70%;
+    border: none;
 }
 blockquote p {
     font-size: 1.2em;
     font-style: italic;
+}
+figcaption {
+    font-size: 1.2em;
 }
 
 @media (max-width: 1024px) {
