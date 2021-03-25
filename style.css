@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -302,9 +302,11 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 55%;
+    height: 40px;
+    min-width: 215px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -744,6 +746,8 @@ h4 {
     margin-bottom: 24px;
     margin: auto;
     width: 75%;
+    height: 75%;
+
 }
 
 .portfolio-row {
@@ -813,19 +817,15 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    background-image: url("img/la-chouette-agence-banniere-min.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 blockquote {
@@ -973,10 +973,6 @@ blockquote p {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
     }
     .nav-invert .navbar-header {
         float: none;
